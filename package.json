@@ -1,7 +1,12 @@
 {
-  "name": "orcid-sync-enriched",
+  "name": "orcid-publications-sync",
   "private": true,
   "type": "commonjs",
+
+  "scripts": {
+    "sync": "node orcid-sync-enriched.js"
+  },
+
   "dependencies": {
     "node-fetch": "^2.6.7",
     "levenshtein-edit-distance": "^3.0.1"
