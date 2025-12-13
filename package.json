@@ -9,6 +9,6 @@
 
   "dependencies": {
     "node-fetch": "^2.6.7",
-    "levenshtein-edit-distance": "^3.0.1"
+    "levenshtein-edit-distance": "^2.0.0"
   }
 }
