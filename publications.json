@@ -1,3 +1,445 @@
+  "aradhana": {
+    "name": "Aradhana",
+    "scholar_url": "https://scholar.google.com/citations?user=MRLh0BUAAAAJ&hl=en",
+    "papers": [
+      {
+        "id": "orcid_198893885",
+        "title": "Trade-Off Between Multiplicity and Specificity in the Inter-layer Connectivity of non-identical Multilayer Networks",
+        "authors": "Aradhana Singh",
+        "year": "",
+        "venue": "",
+        "doi": "",
+        "url": "https://arxiv.org/html/2511.19047v1",
+        "source": "ORCID"
+      },
+      {
+        "id": "orcid_198893806",
+        "title": "Role of spatial embedding and planarity in shaping the topology of the Street Networks",
+        "authors": "Aradhana Singh, Ritish Khetarpal, Amod Rai",
+        "year": 2025,
+        "venue": "Physica A: Statistical Mechanics and its Applications",
+        "doi": "10.1016/j.physa.2025.130901",
+        "url": "https://doi.org/10.1016/j.physa.2025.130901",
+        "source": "CrossRef/ORCID"
+      },
+      {
+        "id": "orcid_198893779",
+        "title": "Forced symmetry-breaking in networks with dihedral symmetry",
+        "authors": "Antonio Palacios, Samir Sahoo, Madeline Parker, Aradhana Singh, Sheksha Dudekula",
+        "year": 2025,
+        "venue": "Chaos: An Interdisciplinary Journal of Nonlinear Science",
+        "doi": "10.1063/5.0288584",
+        "url": "https://doi.org/10.1063/5.0288584",
+        "source": "CrossRef/ORCID"
+      },
+      {
+        "id": "orcid_180893136",
+        "title": "Brain rewiring during developmental transitions: A Comparative Analysis of Larva and Adult<i>Drosophila melanogaster</i>",
+        "authors": "Prateek Yadav, Pramod Shinde, Aradhana Singh",
+        "year": 2024,
+        "venue": "",
+        "doi": "10.1101/2024.05.01.592061",
+        "url": "https://doi.org/10.1101/2024.05.01.592061",
+        "source": "CrossRef/ORCID"
+      },
+      {
+        "id": "orcid_180893198",
+        "title": "Interplay of intra- and inter-dependence affects the robustness of network of networks",
+        "authors": "Aradhana Singh",
+        "year": "",
+        "venue": "",
+        "doi": "",
+        "url": "https://www.ias.ac.in/describe/article/conf/002/0009",
+        "source": "ORCID"
+      },
+      {
+        "id": "orcid_180893119",
+        "title": "Anti-modular nature of partially bipartite networks makes them infra small-world",
+        "authors": "Aradhana Singh, Md. Izhar Ashraf, Sitabhra Sinha",
+        "year": "",
+        "venue": "",
+        "doi": "10.48550/arxiv.1902.02668",
+        "url": "https://arxiv.org/abs/1902.02668",
+        "source": "ORCID"
+      },
+      {
+        "id": "orcid_180893076",
+        "title": "Cluster synchronization in multiplex networks",
+        "authors": "Sarika Jalan, Aradhana Singh",
+        "year": 2016,
+        "venue": "EPL (Europhysics Letters)",
+        "doi": "10.1209/0295-5075/113/30002",
+        "url": "https://doi.org/10.1209/0295-5075/113/30002",
+        "source": "CrossRef/ORCID"
+      },
+      {
+        "id": "orcid_180893051",
+        "title": "Synchronization in delayed multiplex networks",
+        "authors": "Aradhana Singh, Saptarshi Ghosh, Sarika Jalan, Jürgen Kurths",
+        "year": 2015,
+        "venue": "EPL (Europhysics Letters)",
+        "doi": "10.1209/0295-5075/111/30010",
+        "url": "https://doi.org/10.1209/0295-5075/111/30010",
+        "source": "CrossRef/ORCID"
+      },
+      {
+        "id": "orcid_180893031",
+        "title": "Impact of a leader on cluster synchronization",
+        "authors": "Sarika Jalan, Aradhana Singh, Suman Acharyya, Jürgen Kurths",
+        "year": 2015,
+        "venue": "Physical Review E",
+        "doi": "10.1103/physreve.91.022901",
+        "url": "https://doi.org/10.1103/physreve.91.022901",
+        "source": "CrossRef/ORCID"
+      },
+      {
+        "id": "orcid_180892996",
+        "title": "Impact of heterogeneous delays on cluster synchronization",
+        "authors": "Sarika Jalan, Aradhana Singh",
+        "year": 2014,
+        "venue": "Physical Review E",
+        "doi": "10.1103/physreve.90.042907",
+        "url": "https://doi.org/10.1103/physreve.90.042907",
+        "source": "CrossRef/ORCID"
+      },
+      {
+        "id": "orcid_180892980",
+        "title": "Heterogeneous delays making parents synchronized: A coupled maps on Cayley tree model",
+        "authors": "Aradhana Singh, Sarika Jalan",
+        "year": 2014,
+        "venue": "AIP Advances",
+        "doi": "10.1063/1.4881978",
+        "url": "https://doi.org/10.1063/1.4881978",
+        "source": "CrossRef/ORCID"
+      },
+      {
+        "id": "orcid_180892961",
+        "title": "Delay-induced cluster patterns in coupled Cayley tree networks",
+        "authors": "A. Singh, S. Jalan",
+        "year": 2013,
+        "venue": "The European Physical Journal Special Topics",
+        "doi": "10.1140/epjst/e2013-01891-2",
+        "url": "https://doi.org/10.1140/epjst/e2013-01891-2",
+        "source": "CrossRef/ORCID"
+      },
+      {
+        "id": "orcid_180892934",
+        "title": "Role of delay in the mechanism of cluster formation",
+        "authors": "Aradhana Singh, Sarika Jalan, Jürgen Kurths",
+        "year": 2013,
+        "venue": "Physical Review E",
+        "doi": "10.1103/physreve.87.030902",
+        "url": "https://doi.org/10.1103/physreve.87.030902",
+        "source": "CrossRef/ORCID"
+      },
+      {
+        "id": "orcid_180892927",
+        "title": "Transition from the self-organized to the driven dynamical clusters",
+        "authors": "Aradhana Singh, Sarika Jalan",
+        "year": 2012,
+        "venue": "Physica A: Statistical Mechanics and its Applications",
+        "doi": "10.1016/j.physa.2012.07.055",
+        "url": "https://doi.org/10.1016/j.physa.2012.07.055",
+        "source": "CrossRef/ORCID"
+      },
+      {
+        "id": "orcid_180893092",
+        "title": "Interplay of delay and multiplexing: Impact on cluster synchronization",
+        "authors": "Aradhana Singh, Sarika Jalan, Stefano Boccaletti",
+        "year": "",
+        "venue": "",
+        "doi": "",
+        "url": "https://doi.org/10.1063/1.4979798",
+        "source": "ORCID"
+      }
+    ]
+  },
+  "arunima_banerjee": {
+    "name": "Arunima Banerjee",
+    "scholar_url": "https://scholar.google.com/citations?user=MlY85EsAAAAJ&hl=en",
+    "papers": []
+  },
+  "ankur": {
+    "name": "Ankur Das",
+    "scholar_url": "https://scholar.google.com/citations?user=_ojvV50AAAAJ&hl=en",
+    "papers": [
+      {
+        "id": "orcid_197613997",
+        "title": "Experimentally motivated order of length scales affect shot noise",
+        "authors": "Sourav Manna, Ankur Das",
+        "year": 2025,
+        "venue": "Physical Review B",
+        "doi": "10.1103/lzph-3yzb",
+        "url": "https://doi.org/10.1103/lzph-3yzb",
+        "source": "CrossRef/ORCID"
+      },
+      {
+        "id": "orcid_196538653",
+        "title": "Internal symmetry protected stable topological semimetals in three dimensions",
+        "authors": "Faruk Abdulla, Ganpathy Murthy, Ankur Das",
+        "year": 2025,
+        "venue": "Physical Review B",
+        "doi": "10.1103/q4gd-b4vb",
+        "url": "https://doi.org/10.1103/q4gd-b4vb",
+        "source": "CrossRef/ORCID"
+      },
+      {
+        "id": "orcid_193671307",
+        "title": "Shot noise signatures of candidate states for the fractional quantum Hall \n<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\"><mml:mrow><mml:mi>ν</mml:mi><mml:mo>=</mml:mo><mml:mfrac><mml:mn>12</mml:mn><mml:mn>5</mml:mn></mml:mfrac></mml:mrow></mml:math>\n state",
+        "authors": "Goutham Vinjamuri, Ankur Das",
+        "year": 2025,
+        "venue": "Physical Review B",
+        "doi": "10.1103/tp7s-nf8b",
+        "url": "https://doi.org/10.1103/tp7s-nf8b",
+        "source": "CrossRef/ORCID"
+      },
+      {
+        "id": "orcid_186681145",
+        "title": "Multiple Mechanisms for Emerging Conductance Plateaus in Fractional Quantum Hall States",
+        "authors": "Sourav Manna, Ankur Das, Yuval Gefen, Moshe Goldstein",
+        "year": 2025,
+        "venue": "Physical Review Letters",
+        "doi": "10.1103/p4y5-trph",
+        "url": "https://doi.org/10.1103/p4y5-trph",
+        "source": "CrossRef/ORCID"
+      },
+      {
+        "id": "orcid_176917533",
+        "title": "Fractional quantum Hall phases of graphene beyond the ultrashort-range intervalley anisotropic interaction",
+        "authors": "Oleg Grigorev, Ankur Das",
+        "year": 2025,
+        "venue": "Physical Review B",
+        "doi": "10.1103/physrevb.111.035153",
+        "url": "https://doi.org/10.1103/physrevb.111.035153",
+        "source": "CrossRef/ORCID"
+      },
+      {
+        "id": "orcid_173420422",
+        "title": "Shot noise as a diagnostic in the ν = 2/3 fractional quantum Hall edge zoo",
+        "authors": "Sourav Manna, Ankur Das, Yuval Gefen, Moshe Goldstein",
+        "year": 2024,
+        "venue": "Low Temperature Physics",
+        "doi": "10.1063/10.0034344",
+        "url": "https://doi.org/10.1063/10.0034344",
+        "source": "CrossRef/ORCID"
+      },
+      {
+        "id": "orcid_156402463",
+        "title": "Full Classification of Transport on an Equilibrated \n<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mml:mrow><mml:mn>5</mml:mn><mml:mo>/</mml:mo><mml:mn>2</mml:mn></mml:mrow></mml:math>\n Edge via Shot Noise",
+        "authors": "Sourav Manna, Ankur Das, Moshe Goldstein, Yuval Gefen",
+        "year": 2024,
+        "venue": "Physical Review Letters",
+        "doi": "10.1103/physrevlett.132.136502",
+        "url": "https://doi.org/10.1103/physrevlett.132.136502",
+        "source": "CrossRef/ORCID"
+      },
+      {
+        "id": "orcid_150801528",
+        "title": "Stable nodal line semimetals in the chiral classes in three dimensions",
+        "authors": "Faruk Abdulla, Ganpathy Murthy, Ankur Das",
+        "year": "",
+        "venue": "",
+        "doi": "10.48550/arxiv.2401.02966",
+        "url": "https://arxiv.org/abs/2401.02966",
+        "source": "ORCID"
+      },
+      {
+        "id": "orcid_134179053",
+        "title": "Punctured-Chern Topological Invariants for Semimetallic Band Structures",
+        "authors": "Ankur Das, Eyal Cornfeld, Sumiran Pujari",
+        "year": 2023,
+        "venue": "Physical Review Letters",
+        "doi": "10.1103/physrevlett.130.186202",
+        "url": "https://doi.org/10.1103/physrevlett.130.186202",
+        "source": "CrossRef/ORCID"
+      },
+      {
+        "id": "orcid_131670287",
+        "title": "Global phase diagram of charge-neutral graphene in the quantum Hall regime for generic interactions",
+        "authors": "Suman Jyoti De, Ankur Das, Sumathi Rao, Ribhu K. Kaul, Ganpathy Murthy",
+        "year": 2023,
+        "venue": "Physical Review B",
+        "doi": "10.1103/physrevb.107.125422",
+        "url": "https://doi.org/10.1103/physrevb.107.125422",
+        "source": "CrossRef/ORCID"
+      },
+      {
+        "id": "orcid_143528970",
+        "title": "Experimentally Motivated Order of Length Scales Affect Shot Noise",
+        "authors": "Sourav Manna, Ankur Das",
+        "year": "",
+        "venue": "",
+        "doi": "10.48550/arxiv.2307.08264",
+        "url": "https://arxiv.org/abs/2307.08264",
+        "source": "ORCID"
+      },
+      {
+        "id": "orcid_143529139",
+        "title": "Shot Noise as a Diagnostic in the Fractional Quantum Hall Edge Zoo",
+        "authors": "Sourav Manna, Ankur Das, Moshe Goldstein",
+        "year": "",
+        "venue": "",
+        "doi": "10.48550/arxiv.2307.05173",
+        "url": "https://arxiv.org/abs/2307.05173",
+        "source": "ORCID"
+      },
+      {
+        "id": "orcid_143529181",
+        "title": "Shot noise classification of different conductance plateaus in a quantum point contact at the $ν=2/3$ edge",
+        "authors": "Sourav Manna, Ankur Das, Moshe Goldstein",
+        "year": "",
+        "venue": "",
+        "doi": "10.48550/arxiv.2307.05175",
+        "url": "https://arxiv.org/abs/2307.05175",
+        "source": "ORCID"
+      },
+      {
+        "id": "orcid_150801499",
+        "title": "Topological nodal line semimetals with chiral symmetry",
+        "authors": "Faruk Abdulla, Ganpathy Murthy, Ankur Das",
+        "year": "",
+        "venue": "",
+        "doi": "10.48550/arxiv.2311.18667",
+        "url": "https://arxiv.org/abs/2311.18667",
+        "source": "ORCID"
+      },
+      {
+        "id": "orcid_119919357",
+        "title": "Shot noise does not always provide the quasiparticle charge",
+        "authors": "Sourav Biswas, Rajarshi Bhattacharyya, Hemanta Kumar Kundu, Ankur Das, Moty Heiblum, Vladimir Umansky, Moshe Goldstein, Yuval Gefen",
+        "year": 2022,
+        "venue": "Nature Physics",
+        "doi": "10.1038/s41567-022-01758-x",
+        "url": "https://doi.org/10.1038/s41567-022-01758-x",
+        "source": "CrossRef/ORCID"
+      },
+      {
+        "id": "orcid_112269606",
+        "title": "dc electrical current generated by upstream neutral modes",
+        "authors": "Ankur Das, Sumathi Rao, Yuval Gefen, Ganpathy Murthy",
+        "year": 2022,
+        "venue": "Physical Review B",
+        "doi": "10.1103/physrevb.105.165154",
+        "url": "https://doi.org/10.1103/physrevb.105.165154",
+        "source": "CrossRef/ORCID"
+      },
+      {
+        "id": "orcid_109705854",
+        "title": "Coexistence of Canted Antiferromagnetism and Bond Order in \n<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mml:mrow><mml:mi>ν</mml:mi><mml:mo>=</mml:mo><mml:mn>0</mml:mn></mml:mrow></mml:math>\n Graphene",
+        "authors": "Ankur Das, Ribhu K. Kaul, Ganpathy Murthy",
+        "year": 2022,
+        "venue": "Physical Review Letters",
+        "doi": "10.1103/physrevlett.128.106803",
+        "url": "https://doi.org/10.1103/physrevlett.128.106803",
+        "source": "CrossRef/ORCID"
+      },
+      {
+        "id": "orcid_105815325",
+        "title": "Layer-coherent phase in double-layer graphene at \n<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\"><mml:mrow><mml:msub><mml:mi>ν</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:mo>=</mml:mo><mml:msub><mml:mi>ν</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mo>=</mml:mo><mml:mn>0</mml:mn></mml:mrow></mml:math>",
+        "authors": "Amartya Saha, Ankur Das",
+        "year": 2022,
+        "venue": "Physical Review B",
+        "doi": "10.1103/physrevb.105.035405",
+        "url": "https://doi.org/10.1103/physrevb.105.035405",
+        "source": "CrossRef/ORCID"
+      },
+      {
+        "id": "orcid_118172820",
+        "title": "A $\\mathbb{Z} \\times \\mathbb{Z}$ punctured-Chern topological invariant for triple-point Nexus fermions",
+        "authors": "Ankur Das",
+        "year": "",
+        "venue": "",
+        "doi": "10.48550/arxiv.2205.07814",
+        "url": "https://arxiv.org/abs/2205.07814",
+        "source": "ORCID"
+      },
+      {
+        "id": "orcid_140576849",
+        "title": "Time-reversal-broken Weyl semimetal in the Hofstadter regime",
+        "authors": "Faruk Abdulla, Ankur Das, Sumathi Rao, Ganpathy Murthy",
+        "year": 2022,
+        "venue": "SciPost Physics Core",
+        "doi": "10.21468/scipostphyscore.5.1.014",
+        "url": "https://doi.org/10.21468/scipostphyscore.5.1.014",
+        "source": "CrossRef/ORCID"
+      },
+      {
+        "id": "orcid_105815172",
+        "title": "Coexistence of canted antiferromagnetism and bond-order in ν = 0 graphene",
+        "authors": "Das, A., Kaul, R.K., Murthy, G.",
+        "year": "",
+        "venue": "",
+        "doi": "",
+        "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-85115876243&partnerID=MN8TOARS",
+        "source": "ORCID"
+      },
+      {
+        "id": "orcid_105815171",
+        "title": "Does shot noise always provide the quasiparticle charge?",
+        "authors": "Biswas, S., Bhattacharyya, R., Kundu, H.K., Das, A., Heiblum, M., Umansky, V., Goldstein, M., Gefen, Y.",
+        "year": "",
+        "venue": "",
+        "doi": "",
+        "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-85119572607&partnerID=MN8TOARS",
+        "source": "ORCID"
+      },
+      {
+        "id": "orcid_85678236",
+        "title": "Topological character of three-dimensional nexus triple point degeneracies",
+        "authors": "Ankur Das, Sumiran Pujari",
+        "year": 2020,
+        "venue": "Physical Review B",
+        "doi": "10.1103/physrevb.102.235148",
+        "url": "https://doi.org/10.1103/physrevb.102.235148",
+        "source": "CrossRef/ORCID"
+      },
+      {
+        "id": "orcid_85170560",
+        "title": "Stability of zero-energy Dirac touchings in the honeycomb Hofstadter problem",
+        "authors": "Ankur Das, Ribhu K. Kaul, Ganpathy Murthy",
+        "year": 2020,
+        "venue": "Physical Review B",
+        "doi": "10.1103/physrevb.101.165416",
+        "url": "https://doi.org/10.1103/physrevb.101.165416",
+        "source": "CrossRef/ORCID"
+      },
+      {
+        "id": "orcid_105815591",
+        "title": "GRAPHENE IN A UNIFORM MAGNETIC FIELD",
+        "authors": "",
+        "year": "",
+        "venue": "",
+        "doi": "10.13023/etd.2020.228",
+        "url": "https://uknowledge.uky.edu/physastron_etds/70/",
+        "source": "ORCID"
+      },
+      {
+        "id": "orcid_85170554",
+        "title": "SU(3) fermions in a three-band graphene-like model",
+        "authors": "Ankur Das, Sumiran Pujari",
+        "year": 2019,
+        "venue": "Physical Review B",
+        "doi": "10.1103/physrevb.100.125152",
+        "url": "https://doi.org/10.1103/physrevb.100.125152",
+        "source": "CrossRef/ORCID"
+      },
+      {
+        "id": "orcid_85170547",
+        "title": "Phase transition in \n<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\"><mml:mrow><mml:mi>S</mml:mi><mml:mi>U</mml:mi><mml:mo>(</mml:mo><mml:mi>N</mml:mi><mml:mo>)</mml:mo><mml:mo>×</mml:mo><mml:mi>U</mml:mi><mml:mo>(</mml:mo><mml:mn>1</mml:mn><mml:mo>)</mml:mo></mml:mrow></mml:math>\n gauge theory with many fundamental bosons",
+        "authors": "Ankur Das",
+        "year": 2018,
+        "venue": "Physical Review B",
+        "doi": "10.1103/physrevb.97.214429",
+        "url": "https://doi.org/10.1103/physrevb.97.214429",
+        "source": "CrossRef/ORCID"
+      }
+    ]
+  },
+  "chitrasen": {
+    "name": "Chitrasen Jena",
+    "scholar_url": "https://scholar.google.com/citations?user=JMZoVLIAAAAJ&hl=en",
+    "papers": []
+  },
 {
   "dileep_mampallil": {
     "name": "Dileep Mampallil",
@@ -3686,448 +4128,6 @@
         "source": "CrossRef/ORCID"
       }
     ]
-  },
-  "aradhana": {
-    "name": "Aradhana",
-    "scholar_url": "https://scholar.google.com/citations?user=MRLh0BUAAAAJ&hl=en",
-    "papers": [
-      {
-        "id": "orcid_198893885",
-        "title": "Trade-Off Between Multiplicity and Specificity in the Inter-layer Connectivity of non-identical Multilayer Networks",
-        "authors": "Aradhana Singh",
-        "year": "",
-        "venue": "",
-        "doi": "",
-        "url": "https://arxiv.org/html/2511.19047v1",
-        "source": "ORCID"
-      },
-      {
-        "id": "orcid_198893806",
-        "title": "Role of spatial embedding and planarity in shaping the topology of the Street Networks",
-        "authors": "Aradhana Singh, Ritish Khetarpal, Amod Rai",
-        "year": 2025,
-        "venue": "Physica A: Statistical Mechanics and its Applications",
-        "doi": "10.1016/j.physa.2025.130901",
-        "url": "https://doi.org/10.1016/j.physa.2025.130901",
-        "source": "CrossRef/ORCID"
-      },
-      {
-        "id": "orcid_198893779",
-        "title": "Forced symmetry-breaking in networks with dihedral symmetry",
-        "authors": "Antonio Palacios, Samir Sahoo, Madeline Parker, Aradhana Singh, Sheksha Dudekula",
-        "year": 2025,
-        "venue": "Chaos: An Interdisciplinary Journal of Nonlinear Science",
-        "doi": "10.1063/5.0288584",
-        "url": "https://doi.org/10.1063/5.0288584",
-        "source": "CrossRef/ORCID"
-      },
-      {
-        "id": "orcid_180893136",
-        "title": "Brain rewiring during developmental transitions: A Comparative Analysis of Larva and Adult<i>Drosophila melanogaster</i>",
-        "authors": "Prateek Yadav, Pramod Shinde, Aradhana Singh",
-        "year": 2024,
-        "venue": "",
-        "doi": "10.1101/2024.05.01.592061",
-        "url": "https://doi.org/10.1101/2024.05.01.592061",
-        "source": "CrossRef/ORCID"
-      },
-      {
-        "id": "orcid_180893198",
-        "title": "Interplay of intra- and inter-dependence affects the robustness of network of networks",
-        "authors": "Aradhana Singh",
-        "year": "",
-        "venue": "",
-        "doi": "",
-        "url": "https://www.ias.ac.in/describe/article/conf/002/0009",
-        "source": "ORCID"
-      },
-      {
-        "id": "orcid_180893119",
-        "title": "Anti-modular nature of partially bipartite networks makes them infra small-world",
-        "authors": "Aradhana Singh, Md. Izhar Ashraf, Sitabhra Sinha",
-        "year": "",
-        "venue": "",
-        "doi": "10.48550/arxiv.1902.02668",
-        "url": "https://arxiv.org/abs/1902.02668",
-        "source": "ORCID"
-      },
-      {
-        "id": "orcid_180893076",
-        "title": "Cluster synchronization in multiplex networks",
-        "authors": "Sarika Jalan, Aradhana Singh",
-        "year": 2016,
-        "venue": "EPL (Europhysics Letters)",
-        "doi": "10.1209/0295-5075/113/30002",
-        "url": "https://doi.org/10.1209/0295-5075/113/30002",
-        "source": "CrossRef/ORCID"
-      },
-      {
-        "id": "orcid_180893051",
-        "title": "Synchronization in delayed multiplex networks",
-        "authors": "Aradhana Singh, Saptarshi Ghosh, Sarika Jalan, Jürgen Kurths",
-        "year": 2015,
-        "venue": "EPL (Europhysics Letters)",
-        "doi": "10.1209/0295-5075/111/30010",
-        "url": "https://doi.org/10.1209/0295-5075/111/30010",
-        "source": "CrossRef/ORCID"
-      },
-      {
-        "id": "orcid_180893031",
-        "title": "Impact of a leader on cluster synchronization",
-        "authors": "Sarika Jalan, Aradhana Singh, Suman Acharyya, Jürgen Kurths",
-        "year": 2015,
-        "venue": "Physical Review E",
-        "doi": "10.1103/physreve.91.022901",
-        "url": "https://doi.org/10.1103/physreve.91.022901",
-        "source": "CrossRef/ORCID"
-      },
-      {
-        "id": "orcid_180892996",
-        "title": "Impact of heterogeneous delays on cluster synchronization",
-        "authors": "Sarika Jalan, Aradhana Singh",
-        "year": 2014,
-        "venue": "Physical Review E",
-        "doi": "10.1103/physreve.90.042907",
-        "url": "https://doi.org/10.1103/physreve.90.042907",
-        "source": "CrossRef/ORCID"
-      },
-      {
-        "id": "orcid_180892980",
-        "title": "Heterogeneous delays making parents synchronized: A coupled maps on Cayley tree model",
-        "authors": "Aradhana Singh, Sarika Jalan",
-        "year": 2014,
-        "venue": "AIP Advances",
-        "doi": "10.1063/1.4881978",
-        "url": "https://doi.org/10.1063/1.4881978",
-        "source": "CrossRef/ORCID"
-      },
-      {
-        "id": "orcid_180892961",
-        "title": "Delay-induced cluster patterns in coupled Cayley tree networks",
-        "authors": "A. Singh, S. Jalan",
-        "year": 2013,
-        "venue": "The European Physical Journal Special Topics",
-        "doi": "10.1140/epjst/e2013-01891-2",
-        "url": "https://doi.org/10.1140/epjst/e2013-01891-2",
-        "source": "CrossRef/ORCID"
-      },
-      {
-        "id": "orcid_180892934",
-        "title": "Role of delay in the mechanism of cluster formation",
-        "authors": "Aradhana Singh, Sarika Jalan, Jürgen Kurths",
-        "year": 2013,
-        "venue": "Physical Review E",
-        "doi": "10.1103/physreve.87.030902",
-        "url": "https://doi.org/10.1103/physreve.87.030902",
-        "source": "CrossRef/ORCID"
-      },
-      {
-        "id": "orcid_180892927",
-        "title": "Transition from the self-organized to the driven dynamical clusters",
-        "authors": "Aradhana Singh, Sarika Jalan",
-        "year": 2012,
-        "venue": "Physica A: Statistical Mechanics and its Applications",
-        "doi": "10.1016/j.physa.2012.07.055",
-        "url": "https://doi.org/10.1016/j.physa.2012.07.055",
-        "source": "CrossRef/ORCID"
-      },
-      {
-        "id": "orcid_180893092",
-        "title": "Interplay of delay and multiplexing: Impact on cluster synchronization",
-        "authors": "Aradhana Singh, Sarika Jalan, Stefano Boccaletti",
-        "year": "",
-        "venue": "",
-        "doi": "",
-        "url": "https://doi.org/10.1063/1.4979798",
-        "source": "ORCID"
-      }
-    ]
-  },
-  "arunima_banerjee": {
-    "name": "Arunima Banerjee",
-    "scholar_url": "https://scholar.google.com/citations?user=MlY85EsAAAAJ&hl=en",
-    "papers": []
-  },
-  "ankur": {
-    "name": "Ankur Das",
-    "scholar_url": "https://scholar.google.com/citations?user=_ojvV50AAAAJ&hl=en",
-    "papers": [
-      {
-        "id": "orcid_197613997",
-        "title": "Experimentally motivated order of length scales affect shot noise",
-        "authors": "Sourav Manna, Ankur Das",
-        "year": 2025,
-        "venue": "Physical Review B",
-        "doi": "10.1103/lzph-3yzb",
-        "url": "https://doi.org/10.1103/lzph-3yzb",
-        "source": "CrossRef/ORCID"
-      },
-      {
-        "id": "orcid_196538653",
-        "title": "Internal symmetry protected stable topological semimetals in three dimensions",
-        "authors": "Faruk Abdulla, Ganpathy Murthy, Ankur Das",
-        "year": 2025,
-        "venue": "Physical Review B",
-        "doi": "10.1103/q4gd-b4vb",
-        "url": "https://doi.org/10.1103/q4gd-b4vb",
-        "source": "CrossRef/ORCID"
-      },
-      {
-        "id": "orcid_193671307",
-        "title": "Shot noise signatures of candidate states for the fractional quantum Hall \n<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\"><mml:mrow><mml:mi>ν</mml:mi><mml:mo>=</mml:mo><mml:mfrac><mml:mn>12</mml:mn><mml:mn>5</mml:mn></mml:mfrac></mml:mrow></mml:math>\n state",
-        "authors": "Goutham Vinjamuri, Ankur Das",
-        "year": 2025,
-        "venue": "Physical Review B",
-        "doi": "10.1103/tp7s-nf8b",
-        "url": "https://doi.org/10.1103/tp7s-nf8b",
-        "source": "CrossRef/ORCID"
-      },
-      {
-        "id": "orcid_186681145",
-        "title": "Multiple Mechanisms for Emerging Conductance Plateaus in Fractional Quantum Hall States",
-        "authors": "Sourav Manna, Ankur Das, Yuval Gefen, Moshe Goldstein",
-        "year": 2025,
-        "venue": "Physical Review Letters",
-        "doi": "10.1103/p4y5-trph",
-        "url": "https://doi.org/10.1103/p4y5-trph",
-        "source": "CrossRef/ORCID"
-      },
-      {
-        "id": "orcid_176917533",
-        "title": "Fractional quantum Hall phases of graphene beyond the ultrashort-range intervalley anisotropic interaction",
-        "authors": "Oleg Grigorev, Ankur Das",
-        "year": 2025,
-        "venue": "Physical Review B",
-        "doi": "10.1103/physrevb.111.035153",
-        "url": "https://doi.org/10.1103/physrevb.111.035153",
-        "source": "CrossRef/ORCID"
-      },
-      {
-        "id": "orcid_173420422",
-        "title": "Shot noise as a diagnostic in the ν = 2/3 fractional quantum Hall edge zoo",
-        "authors": "Sourav Manna, Ankur Das, Yuval Gefen, Moshe Goldstein",
-        "year": 2024,
-        "venue": "Low Temperature Physics",
-        "doi": "10.1063/10.0034344",
-        "url": "https://doi.org/10.1063/10.0034344",
-        "source": "CrossRef/ORCID"
-      },
-      {
-        "id": "orcid_156402463",
-        "title": "Full Classification of Transport on an Equilibrated \n<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mml:mrow><mml:mn>5</mml:mn><mml:mo>/</mml:mo><mml:mn>2</mml:mn></mml:mrow></mml:math>\n Edge via Shot Noise",
-        "authors": "Sourav Manna, Ankur Das, Moshe Goldstein, Yuval Gefen",
-        "year": 2024,
-        "venue": "Physical Review Letters",
-        "doi": "10.1103/physrevlett.132.136502",
-        "url": "https://doi.org/10.1103/physrevlett.132.136502",
-        "source": "CrossRef/ORCID"
-      },
-      {
-        "id": "orcid_150801528",
-        "title": "Stable nodal line semimetals in the chiral classes in three dimensions",
-        "authors": "Faruk Abdulla, Ganpathy Murthy, Ankur Das",
-        "year": "",
-        "venue": "",
-        "doi": "10.48550/arxiv.2401.02966",
-        "url": "https://arxiv.org/abs/2401.02966",
-        "source": "ORCID"
-      },
-      {
-        "id": "orcid_134179053",
-        "title": "Punctured-Chern Topological Invariants for Semimetallic Band Structures",
-        "authors": "Ankur Das, Eyal Cornfeld, Sumiran Pujari",
-        "year": 2023,
-        "venue": "Physical Review Letters",
-        "doi": "10.1103/physrevlett.130.186202",
-        "url": "https://doi.org/10.1103/physrevlett.130.186202",
-        "source": "CrossRef/ORCID"
-      },
-      {
-        "id": "orcid_131670287",
-        "title": "Global phase diagram of charge-neutral graphene in the quantum Hall regime for generic interactions",
-        "authors": "Suman Jyoti De, Ankur Das, Sumathi Rao, Ribhu K. Kaul, Ganpathy Murthy",
-        "year": 2023,
-        "venue": "Physical Review B",
-        "doi": "10.1103/physrevb.107.125422",
-        "url": "https://doi.org/10.1103/physrevb.107.125422",
-        "source": "CrossRef/ORCID"
-      },
-      {
-        "id": "orcid_143528970",
-        "title": "Experimentally Motivated Order of Length Scales Affect Shot Noise",
-        "authors": "Sourav Manna, Ankur Das",
-        "year": "",
-        "venue": "",
-        "doi": "10.48550/arxiv.2307.08264",
-        "url": "https://arxiv.org/abs/2307.08264",
-        "source": "ORCID"
-      },
-      {
-        "id": "orcid_143529139",
-        "title": "Shot Noise as a Diagnostic in the Fractional Quantum Hall Edge Zoo",
-        "authors": "Sourav Manna, Ankur Das, Moshe Goldstein",
-        "year": "",
-        "venue": "",
-        "doi": "10.48550/arxiv.2307.05173",
-        "url": "https://arxiv.org/abs/2307.05173",
-        "source": "ORCID"
-      },
-      {
-        "id": "orcid_143529181",
-        "title": "Shot noise classification of different conductance plateaus in a quantum point contact at the $ν=2/3$ edge",
-        "authors": "Sourav Manna, Ankur Das, Moshe Goldstein",
-        "year": "",
-        "venue": "",
-        "doi": "10.48550/arxiv.2307.05175",
-        "url": "https://arxiv.org/abs/2307.05175",
-        "source": "ORCID"
-      },
-      {
-        "id": "orcid_150801499",
-        "title": "Topological nodal line semimetals with chiral symmetry",
-        "authors": "Faruk Abdulla, Ganpathy Murthy, Ankur Das",
-        "year": "",
-        "venue": "",
-        "doi": "10.48550/arxiv.2311.18667",
-        "url": "https://arxiv.org/abs/2311.18667",
-        "source": "ORCID"
-      },
-      {
-        "id": "orcid_119919357",
-        "title": "Shot noise does not always provide the quasiparticle charge",
-        "authors": "Sourav Biswas, Rajarshi Bhattacharyya, Hemanta Kumar Kundu, Ankur Das, Moty Heiblum, Vladimir Umansky, Moshe Goldstein, Yuval Gefen",
-        "year": 2022,
-        "venue": "Nature Physics",
-        "doi": "10.1038/s41567-022-01758-x",
-        "url": "https://doi.org/10.1038/s41567-022-01758-x",
-        "source": "CrossRef/ORCID"
-      },
-      {
-        "id": "orcid_112269606",
-        "title": "dc electrical current generated by upstream neutral modes",
-        "authors": "Ankur Das, Sumathi Rao, Yuval Gefen, Ganpathy Murthy",
-        "year": 2022,
-        "venue": "Physical Review B",
-        "doi": "10.1103/physrevb.105.165154",
-        "url": "https://doi.org/10.1103/physrevb.105.165154",
-        "source": "CrossRef/ORCID"
-      },
-      {
-        "id": "orcid_109705854",
-        "title": "Coexistence of Canted Antiferromagnetism and Bond Order in \n<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mml:mrow><mml:mi>ν</mml:mi><mml:mo>=</mml:mo><mml:mn>0</mml:mn></mml:mrow></mml:math>\n Graphene",
-        "authors": "Ankur Das, Ribhu K. Kaul, Ganpathy Murthy",
-        "year": 2022,
-        "venue": "Physical Review Letters",
-        "doi": "10.1103/physrevlett.128.106803",
-        "url": "https://doi.org/10.1103/physrevlett.128.106803",
-        "source": "CrossRef/ORCID"
-      },
-      {
-        "id": "orcid_105815325",
-        "title": "Layer-coherent phase in double-layer graphene at \n<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\"><mml:mrow><mml:msub><mml:mi>ν</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:mo>=</mml:mo><mml:msub><mml:mi>ν</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mo>=</mml:mo><mml:mn>0</mml:mn></mml:mrow></mml:math>",
-        "authors": "Amartya Saha, Ankur Das",
-        "year": 2022,
-        "venue": "Physical Review B",
-        "doi": "10.1103/physrevb.105.035405",
-        "url": "https://doi.org/10.1103/physrevb.105.035405",
-        "source": "CrossRef/ORCID"
-      },
-      {
-        "id": "orcid_118172820",
-        "title": "A $\\mathbb{Z} \\times \\mathbb{Z}$ punctured-Chern topological invariant for triple-point Nexus fermions",
-        "authors": "Ankur Das",
-        "year": "",
-        "venue": "",
-        "doi": "10.48550/arxiv.2205.07814",
-        "url": "https://arxiv.org/abs/2205.07814",
-        "source": "ORCID"
-      },
-      {
-        "id": "orcid_140576849",
-        "title": "Time-reversal-broken Weyl semimetal in the Hofstadter regime",
-        "authors": "Faruk Abdulla, Ankur Das, Sumathi Rao, Ganpathy Murthy",
-        "year": 2022,
-        "venue": "SciPost Physics Core",
-        "doi": "10.21468/scipostphyscore.5.1.014",
-        "url": "https://doi.org/10.21468/scipostphyscore.5.1.014",
-        "source": "CrossRef/ORCID"
-      },
-      {
-        "id": "orcid_105815172",
-        "title": "Coexistence of canted antiferromagnetism and bond-order in ν = 0 graphene",
-        "authors": "Das, A., Kaul, R.K., Murthy, G.",
-        "year": "",
-        "venue": "",
-        "doi": "",
-        "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-85115876243&partnerID=MN8TOARS",
-        "source": "ORCID"
-      },
-      {
-        "id": "orcid_105815171",
-        "title": "Does shot noise always provide the quasiparticle charge?",
-        "authors": "Biswas, S., Bhattacharyya, R., Kundu, H.K., Das, A., Heiblum, M., Umansky, V., Goldstein, M., Gefen, Y.",
-        "year": "",
-        "venue": "",
-        "doi": "",
-        "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-85119572607&partnerID=MN8TOARS",
-        "source": "ORCID"
-      },
-      {
-        "id": "orcid_85678236",
-        "title": "Topological character of three-dimensional nexus triple point degeneracies",
-        "authors": "Ankur Das, Sumiran Pujari",
-        "year": 2020,
-        "venue": "Physical Review B",
-        "doi": "10.1103/physrevb.102.235148",
-        "url": "https://doi.org/10.1103/physrevb.102.235148",
-        "source": "CrossRef/ORCID"
-      },
-      {
-        "id": "orcid_85170560",
-        "title": "Stability of zero-energy Dirac touchings in the honeycomb Hofstadter problem",
-        "authors": "Ankur Das, Ribhu K. Kaul, Ganpathy Murthy",
-        "year": 2020,
-        "venue": "Physical Review B",
-        "doi": "10.1103/physrevb.101.165416",
-        "url": "https://doi.org/10.1103/physrevb.101.165416",
-        "source": "CrossRef/ORCID"
-      },
-      {
-        "id": "orcid_105815591",
-        "title": "GRAPHENE IN A UNIFORM MAGNETIC FIELD",
-        "authors": "",
-        "year": "",
-        "venue": "",
-        "doi": "10.13023/etd.2020.228",
-        "url": "https://uknowledge.uky.edu/physastron_etds/70/",
-        "source": "ORCID"
-      },
-      {
-        "id": "orcid_85170554",
-        "title": "SU(3) fermions in a three-band graphene-like model",
-        "authors": "Ankur Das, Sumiran Pujari",
-        "year": 2019,
-        "venue": "Physical Review B",
-        "doi": "10.1103/physrevb.100.125152",
-        "url": "https://doi.org/10.1103/physrevb.100.125152",
-        "source": "CrossRef/ORCID"
-      },
-      {
-        "id": "orcid_85170547",
-        "title": "Phase transition in \n<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\"><mml:mrow><mml:mi>S</mml:mi><mml:mi>U</mml:mi><mml:mo>(</mml:mo><mml:mi>N</mml:mi><mml:mo>)</mml:mo><mml:mo>×</mml:mo><mml:mi>U</mml:mi><mml:mo>(</mml:mo><mml:mn>1</mml:mn><mml:mo>)</mml:mo></mml:mrow></mml:math>\n gauge theory with many fundamental bosons",
-        "authors": "Ankur Das",
-        "year": 2018,
-        "venue": "Physical Review B",
-        "doi": "10.1103/physrevb.97.214429",
-        "url": "https://doi.org/10.1103/physrevb.97.214429",
-        "source": "CrossRef/ORCID"
-      }
-    ]
-  },
-  "chitrasen": {
-    "name": "Chitrasen Jena",
-    "scholar_url": "https://scholar.google.com/citations?user=JMZoVLIAAAAJ&hl=en",
-    "papers": []
   },
   "kanaga": {
     "name": "Kanagasekaran T",
