@@ -1,0 +1,12 @@
+{
+  "name": "iiser-orcid-crossref-sync",
+  "version": "1.0.0",
+  "main": "orcid-sync-enriched.js",
+  "scripts": {
+    "sync": "node orcid-sync-enriched.js"
+  },
+  "dependencies": {
+    "levenshtein-edit-distance": "^3.0.1",
+    "node-fetch": "^2.6.7"
+  }
+}
