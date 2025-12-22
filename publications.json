@@ -433,6 +433,16 @@
         "doi": "10.1103/physrevb.97.214429",
         "url": "https://doi.org/10.1103/physrevb.97.214429",
         "source": "CrossRef/ORCID"
+      },
+      {
+        "id": "orcid_105815179",
+        "title": "Phase transition in su(n) × u(1) gauge theory with many fundamental bosons",
+        "authors": "Das, A.",
+        "year": "",
+        "venue": "",
+        "doi": "",
+        "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-85095625053&partnerID=MN8TOARS",
+        "source": "ORCID"
       }
     ]
   },
@@ -5298,7 +5308,7 @@
   },
   "sudipta_dutta": {
     "name": "Sudipta Dutta",
-     "scholar_url": "https://scholar.google.co.in/citations?user=PeBivM4AAAAJ&hl=en",
+    "scholar_url": "https://scholar.google.co.in/citations?user=PeBivM4AAAAJ&hl=en",
     "papers": [
       {
         "id": "orcid_85014937",
@@ -5631,6 +5641,16 @@
         "doi": "10.1016/j.cplett.2018.08.032",
         "url": "https://doi.org/10.1016/j.cplett.2018.08.032",
         "source": "CrossRef/ORCID"
+      },
+      {
+        "id": "orcid_200028045",
+        "title": "Compositional fluctuations and polymorph selection in crystallization of model soft colloids",
+        "authors": "Abhilasha Kumari, Gadha Ramesh, Debasish Koner, Rakesh S. Singh, Mantu Santra",
+        "year": 2025,
+        "venue": "The Journal of Chemical Physics",
+        "doi": "10.1063/5.0289735",
+        "url": "https://doi.org/10.1063/5.0289735",
+        "source": "CrossRef"
       }
     ]
   }
