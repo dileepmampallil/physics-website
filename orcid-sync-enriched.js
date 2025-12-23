@@ -217,7 +217,7 @@ function merge(db, key, name, papers){
     if(papers.length === 0){
       log(`  ORCID empty → Crossref author search`);
       try{
-        papers = await fetchCrossrefByAuthor(name);
+       papers = await fetchCrossrefByAuthor(name, orcid);
       } catch {}
     }
 
@@ -235,4 +235,5 @@ function merge(db, key, name, papers){
   writeJSON(DATA_FILE, db);
   log(`\nDone. Total new entries: ${total}`);
 })();
+
 
