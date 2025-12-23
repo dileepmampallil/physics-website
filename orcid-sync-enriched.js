@@ -124,28 +124,40 @@ async function fetchCrossrefByDOI(doi){
   };
 }
 
-async function fetchCrossrefByAuthor(author, rows=50){
+async function fetchCrossrefByAuthor(authorName, orcid, rows = 100){
   const url =
-    `${CROSSREF_ROOT}?query.author=${encodeURIComponent(author)}` +
+    `${CROSSREF_ROOT}?query.author=${encodeURIComponent(authorName)}` +
     `&rows=${rows}&sort=published&order=desc`;
 
   const json = await fetchJson(url);
   const items = json.message?.items || [];
 
-  return items.map(m => ({
-    title: Array.isArray(m.title) ? m.title[0] : '',
-    authors: (m.author||[])
-      .map(a => `${a.given||''} ${a.family||''}`.trim())
-      .filter(Boolean)
-      .join(', '),
-    year: extractYear(m),
-    venue: Array.isArray(m['container-title']) ? m['container-title'][0] : '',
-    doi: normalizeDOI(m.DOI),
-    url: m.URL,
-    citations: m['is-referenced-by-count'] || 0,
-    source: 'CrossRef-author'
-  }));
+  return items
+    .filter(m => {
+      if (!orcid) return true; // no ORCID → cannot filter
+      return (m.author || []).some(a =>
+        a.ORCID &&
+        a.ORCID.replace('https://orcid.org/','') === orcid
+      );
+    })
+    .map(m => ({
+      title: Array.isArray(m.title) ? m.title[0] : '',
+      authors: (m.author||[])
+        .map(a => `${a.given||''} ${a.family||''}`.trim())
+        .filter(Boolean)
+        .join(', '),
+      year:
+        m['published-print']?.['date-parts']?.[0]?.[0] ||
+        m['published-online']?.['date-parts']?.[0]?.[0] ||
+        m.issued?.['date-parts']?.[0]?.[0] || '',
+      venue: Array.isArray(m['container-title']) ? m['container-title'][0] : '',
+      doi: normalizeDOI(m.DOI),
+      url: m.URL,
+      citations: m['is-referenced-by-count'] || 0,
+      source: 'CrossRef-author'
+    }));
 }
+
 
 /* ---------------- DEDUPE ---------------- */
 
@@ -223,3 +235,4 @@ function merge(db, key, name, papers){
   writeJSON(DATA_FILE, db);
   log(`\nDone. Total new entries: ${total}`);
 })();
+
