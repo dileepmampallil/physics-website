@@ -1,15 +1,17 @@
 /**
- * orcid-sync-enriched.js (CLEAN FIXED VERSION)
+ * orcid-sync-enriched.js
  *
- * Fetch ORCID works for faculty listed in mapping.json,
- * enrich via CrossRef (if DOI exists),
- * and merge into publications.json.
+ * ORCID → DOI harvesting
+ * Crossref → authoritative metadata + citation counts
+ * Fallback → Crossref author search
  */
 
 const fs = require('fs');
 const path = require('path');
 const fetch = require('node-fetch');
 const levenshtein = require('levenshtein-edit-distance');
+
+/* ---------------- CONFIG ---------------- */
 
 const ORCID_ROOT = 'https://pub.orcid.org/v3.0';
 const CROSSREF_ROOT = 'https://api.crossref.org/works';
@@ -18,11 +20,12 @@ const MAPPING_FILE = path.join(__dirname, 'mapping.json');
 const DATA_FILE = path.join(__dirname, 'publications.json');
 const BACKUP_SUFFIX = '.bak';
 
-// config
-const VERBOSE = true;
-const ORCID_DELAY = 500;
+const ORCID_DELAY = 400;
 const CROSSREF_DELAY = 200;
 const MAX_TITLE_DISTANCE = 6;
+const VERBOSE = true;
+
+/* ---------------- UTILS ---------------- */
 
 const log = (...a) => VERBOSE && console.log(...a);
 const sleep = ms => new Promise(r => setTimeout(r, ms));
@@ -53,18 +56,16 @@ async function fetchJson(url){
   const r = await fetch(url,{
     headers:{
       'Accept':'application/json',
-      'User-Agent':'IISER-PubSync/1.0 (mailto:admin@iisertirupati.ac.in)'
+      'User-Agent':'IISER-PublicationsBot/1.0 (mailto:webmaster@iisertirupati.ac.in)'
     }
   });
-  if(!r.ok){
-    throw new Error(`${r.status} ${r.statusText}`);
-  }
+  if(!r.ok) throw new Error(`${r.status} ${r.statusText}`);
   return r.json();
 }
 
-/* ---------- ORCID helpers ---------- */
+/* ---------------- ORCID ---------------- */
 
-function extractDOIFromExternalIds(ext){
+function extractDOI(ext){
   if(!Array.isArray(ext)) return '';
   for(const e of ext){
     const t = (e['external-id-type']||'').toLowerCase();
@@ -78,85 +79,35 @@ function extractDOIFromExternalIds(ext){
   return '';
 }
 
-function transformOrcidWork(summary, detail){
-  const title =
-    detail?.title?.title?.value ||
-    summary?.title?.title?.value || '';
-
-  const year =
-    detail?.publication_date?.year?.value ||
-    summary?.publication_date?.year?.value || '';
-
-  const venue =
-    detail?.journal_title?.value ||
-    summary?.journal_title?.value || '';
-
-  let authors = '';
-  if(detail?.contributors?.contributor){
-    authors = detail.contributors.contributor
-      .map(c => c['credit-name']?.value)
-      .filter(Boolean)
-      .join(', ');
-  }
-
-  const doi =
-    extractDOIFromExternalIds(
-      detail?.external_identifiers?.external_identifier
-    ) ||
-    extractDOIFromExternalIds(
-      summary?.['external-ids']?.['external-id']
-    );
-
-  return {
-    id: `orcid_${summary['put-code']}`,
-    title,
-    authors,
-    year: year ? Number(year) : '',
-    venue,
-    doi,
-    url: detail?.url?.value || '',
-    source: 'ORCID'
-  };
-}
-
 async function fetchOrcidWorks(orcid){
   const url = `${ORCID_ROOT}/${orcid}/works`;
   const json = await fetchJson(url);
   const groups = json.group || [];
-  const papers = [];
+  const dois = new Set();
 
   for(const g of groups){
-    const summaries = g['work-summary'] || [];
-    for(const summary of summaries){
-      let detail = null;
-      if(summary['put-code']){
-        try{
-          detail = await fetchJson(
-            `${ORCID_ROOT}/${orcid}/work/${summary['put-code']}`
-          );
-          await sleep(ORCID_DELAY/2);
-        } catch {}
-      }
-      papers.push(transformOrcidWork(summary, detail));
+    for(const s of (g['work-summary'] || [])){
+      const d = extractDOI(s?.['external-ids']?.['external-id']);
+      if(d) dois.add(d);
     }
   }
-  return papers;
+  return Array.from(dois);
 }
 
-/* ---------- CrossRef ---------- */
+/* ---------------- CROSSREF ---------------- */
 
-async function fetchCrossref(doi){
-  doi = normalizeDOI(doi);
-  if(!doi) return null;
+function extractYear(m){
+  return (
+    m['published-print']?.['date-parts']?.[0]?.[0] ||
+    m['published-online']?.['date-parts']?.[0]?.[0] ||
+    m.issued?.['date-parts']?.[0]?.[0] || ''
+  );
+}
 
+async function fetchCrossrefByDOI(doi){
   const url = `${CROSSREF_ROOT}/${encodeURIComponent(doi)}`;
   const json = await fetchJson(url);
   const m = json.message || {};
-
-  const year =
-    m['published-print']?.['date-parts']?.[0]?.[0] ||
-    m['published-online']?.['date-parts']?.[0]?.[0] ||
-    m['issued']?.['date-parts']?.[0]?.[0] || '';
 
   return {
     title: Array.isArray(m.title) ? m.title[0] : '',
@@ -164,15 +115,39 @@ async function fetchCrossref(doi){
       .map(a => `${a.given||''} ${a.family||''}`.trim())
       .filter(Boolean)
       .join(', '),
-    year: year ? Number(year) : '',
+    year: extractYear(m),
     venue: Array.isArray(m['container-title']) ? m['container-title'][0] : '',
-    doi,
-    url: m.URL || `https://doi.org/${doi}`,
+    doi: normalizeDOI(m.DOI),
+    url: m.URL || `https://doi.org/${normalizeDOI(m.DOI)}`,
+    citations: m['is-referenced-by-count'] || 0,
     source: 'CrossRef'
   };
 }
 
-/* ---------- Merge & dedupe ---------- */
+async function fetchCrossrefByAuthor(author, rows=50){
+  const url =
+    `${CROSSREF_ROOT}?query.author=${encodeURIComponent(author)}` +
+    `&rows=${rows}&sort=published&order=desc`;
+
+  const json = await fetchJson(url);
+  const items = json.message?.items || [];
+
+  return items.map(m => ({
+    title: Array.isArray(m.title) ? m.title[0] : '',
+    authors: (m.author||[])
+      .map(a => `${a.given||''} ${a.family||''}`.trim())
+      .filter(Boolean)
+      .join(', '),
+    year: extractYear(m),
+    venue: Array.isArray(m['container-title']) ? m['container-title'][0] : '',
+    doi: normalizeDOI(m.DOI),
+    url: m.URL,
+    citations: m['is-referenced-by-count'] || 0,
+    source: 'CrossRef-author'
+  }));
+}
+
+/* ---------------- DEDUPE ---------------- */
 
 function alreadyExists(list, cand){
   if(cand.doi){
@@ -184,23 +159,23 @@ function alreadyExists(list, cand){
   );
 }
 
-function merge(existing, key, name, papers){
-  existing[key] ||= { name, papers: [] };
+function merge(db, key, name, papers){
+  db[key] ||= { name, papers: [] };
   let added = 0;
-
   for(const p of papers){
-    if(!alreadyExists(existing[key].papers, p)){
-      existing[key].papers.push(p);
+    if(!alreadyExists(db[key].papers, p)){
+      db[key].papers.push(p);
       added++;
     }
   }
   return added;
 }
 
-/* ---------- Main ---------- */
+/* ---------------- MAIN ---------------- */
 
 (async function(){
-  log('Starting ORCID sync...');
+  log('ORCID + Crossref sync started');
+
   const mapping = readJSON(MAPPING_FILE);
   if(!mapping) throw new Error('mapping.json missing');
 
@@ -209,28 +184,33 @@ function merge(existing, key, name, papers){
 
   for(const key of Object.keys(mapping)){
     const { name, orcid } = mapping[key];
-    if(!orcid) continue;
+    log(`\n${name}`);
 
-    log(`\n${name} (${orcid})`);
-    const works = await fetchOrcidWorks(orcid);
+    let papers = [];
 
-    const enriched = [];
-    for(const w of works){
-      let out = { ...w };
-      if(w.doi){
-        await sleep(CROSSREF_DELAY);
-        try{
-          const cr = await fetchCrossref(w.doi);
-          if(cr){
-            out = { ...out, ...cr };
-          }
-        } catch {}
-      }
-      enriched.push(out);
+    /* 1️⃣ ORCID → DOIs */
+    if(orcid){
+      try{
+        const dois = await fetchOrcidWorks(orcid);
+        for(const d of dois){
+          await sleep(CROSSREF_DELAY);
+          try{
+            papers.push(await fetchCrossrefByDOI(d));
+          } catch {}
+        }
+      } catch {}
     }
 
-    const added = merge(db, key, name, enriched);
-    log(`  found ${works.length}, added ${added}`);
+    /* 2️⃣ Fallback: Crossref author search */
+    if(papers.length === 0){
+      log(`  ORCID empty → Crossref author search`);
+      try{
+        papers = await fetchCrossrefByAuthor(name);
+      } catch {}
+    }
+
+    const added = merge(db, key, name, papers);
+    log(`  added ${added}`);
     total += added;
 
     await sleep(ORCID_DELAY);
