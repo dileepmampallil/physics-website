@@ -159,7 +159,6 @@
     "name": "Arunima Banerjee",
     "scholar_url": "https://scholar.google.com/citations?user=MlY85EsAAAAJ&hl=en",
     "papers": [
-      
       {
         "title": "Are Purely Gaseous Bars in Dwarf Irregulars a Myth?",
         "authors": "Anagha A. G., Arunima Banerjee",
@@ -8019,6 +8018,26 @@
         "doi": "10.1038/nature10079",
         "url": "https://doi.org/10.1038/nature10079",
         "source": "CrossRef/ORCID"
+      },
+      {
+        "title": "An overview of recent STAR jet measurements",
+        "authors": "Nihar Ranjan Sahoo",
+        "year": 2024,
+        "venue": "International Journal of Modern Physics E",
+        "doi": "10.1142/s0218301324420023",
+        "url": "https://doi.org/10.1142/s0218301324420023",
+        "citations": 0,
+        "source": "CrossRef"
+      },
+      {
+        "title": "Cumulants of net-strangeness multiplicity distributions at energies available at the BNL Relativistic Heavy Ion Collider",
+        "authors": "Changfeng Li, Deeptak Biswas, Nihar Ranjan Sahoo",
+        "year": 2023,
+        "venue": "Physical Review C",
+        "doi": "10.1103/physrevc.107.064905",
+        "url": "https://doi.org/10.1103/physrevc.107.064905",
+        "citations": 0,
+        "source": "CrossRef"
       }
     ]
   },
@@ -8766,8 +8785,8 @@
   },
   "sunil": {
     "name": "Sunil Kumar",
- "scholar_url": "https://scholar.google.com/citations?user=u34RbXIAAAAJ&hl=en",
- "papers": [
+    "scholar_url": "https://scholar.google.com/citations?user=u34RbXIAAAAJ&hl=en",
+    "papers": [
       {
         "id": "orcid_198584857",
         "title": "Ultraviolet Photodissociation Spectroscopy of [dAMP–H]\n                    <sup>−</sup>\n                    at Low Temperature",
@@ -9187,6 +9206,16 @@
         "doi": "",
         "url": "http://stacks.iop.org/1742-6596/80/i=1/a=012025",
         "source": "ORCID"
+      },
+      {
+        "title": "A Case Study on Photostability of Biologically Relevant Anions under Structural Modifications",
+        "authors": "Uma N N, Sunil Kumar S",
+        "year": 2026,
+        "venue": "Monthly Notices of the Royal Astronomical Society",
+        "doi": "10.1093/mnras/stag075",
+        "url": "https://doi.org/10.1093/mnras/stag075",
+        "citations": 0,
+        "source": "CrossRef"
       }
     ]
   },
